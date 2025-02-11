@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@400;700&display=swap');
 
 body {
-    background: #ffce1b;
+    background:  #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: "Averia Libre", serif;
 }
 .averia-libre-regular {
