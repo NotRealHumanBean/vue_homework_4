@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@400;700&display=swap');
+
+body {
+    background: #ffce1b;
+    font-family: "Averia Libre", serif;
+}
+.averia-libre-regular {
+    font-weight: 400;
+  }
+  .averia-libre-bold {
+    font-weight: 700;
+  }
+  
+.wrapper {
+    /* height: 100vh; */
+    display: flex;    
+}
+.links__container {
+    width: 90%;
+    margin: 0 auto;
+}
+.main-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #424242ff;
+}
+.links {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(321px, 390px));
+    justify-content: center; */
+    display: flex;
+   justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.link {
+    height: 330px;
+    width: 390px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #424242;
+    font-style: italic;
+}
+.link:hover {
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
